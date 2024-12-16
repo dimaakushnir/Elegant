@@ -1332,7 +1332,20 @@
                                         </span>
                                     </a>
                                 </li>
-                                <li class="actions-bottom-header__item">
+                                <li class="actions-bottom-header__item actions-bottom-header__item_search">
+                                    <form action="#" class="actions-bottom-header__search-form">
+                                        <div class="actions-bottom-header__search-item">
+                                            <input placeholder="Пошук" autocomplete='off' type='text' name='form[]'
+                                                class='actions-bottom-header__search-input text'>
+                                        </div>
+                                        <button type='submit' class='actions-bottom-header__search-form-btn'>
+                                            <span>
+                                                <svg>
+                                                    <use xlink:href="#search"></use>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </form>
                                     <a href="" class="actions-bottom-header__link actions-bottom-header__link_search">
                                         <span>
                                             <svg>
@@ -1637,7 +1650,7 @@
 </div>
 
 <!-- Popup Exit -->
-<div class="popup cookies open">
+<div class="popup cookies">
     <div class="popup__body">
         <div class="popup__inner">
             <a href="" class="popup__close">
